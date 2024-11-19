@@ -42,35 +42,67 @@
         <div class="header-inner">
             <div class="container">
                 <div class="header-top">
-                    <a class="header-top__logo">
-                        <picture>
-                            <img
-                                src="https://nota.media/local/templates/.default/markup_notamedia/build/images/svg/logo.svg">
-                        </picture>
+                    <a class="header-top__logo" style="height: auto !important;">
+                        <div class="logo">
+                            <span class="poytaxt">Poytaxt</span>
+                            <span class="bank">Sayilgohi</span>
+                        </div>
+                        <style>
+                            .logo {
+                                display: inline-flex;
+                                align-items: center;
+                                gap: 5px; /* Small spacing between the words */
+                            }
+                    
+                            .poytaxt {
+                                color: #B7171C; /* Red color */
+                                font-size: 32px;
+                                font-weight: bold;
+                                font-family: Arial, sans-serif;
+                                text-transform: capitalize;
+                                user-select: none; /* Makes text unselectable */
+                            }
+                    
+                            .bank {
+                                color: #000; /* Black color */
+                                font-size: 32px;
+                                font-weight: bold;
+                                font-family: Arial, sans-serif;
+                                text-transform: capitalize;
+                                user-select: none; /* Makes text unselectable */
+                            }
+                        </style>
                     </a>
+                    
+                    
+                    
                     <div class="header-agency__slogan">
                         <div class="header__slogan">
                             Digital-агенство полного цикла
                         </div>
                     </div>
                     <ul class="header-top__nav">
-            
+
                         <li><a href="https://integrator.nota.media/">+7 (495) 995-15-21</a></li>
                     </ul>
                 </div>
                 <div class="header-bottom">
                     <div class="row">
                         <div class="col-md-4 header-bottom-col-slogan">
-                            <a class="header-bottom__logo">
-                                <picture>
+                            <a class="header-bottom__logo" style="height: auto !important;">
+                                <!-- <picture>
                                     <img
                                         src="https://nota.media/local/templates/.default/markup_notamedia/build/images/svg/logo.svg">
-                                </picture>
+                                </picture> -->
+                                <div class="logo">
+                                    <span class="poytaxt">Poytaxt</span>
+                                    <span class="bank">Sayilgohi</span>
+                                </div>
                             </a>
                             <div class="header__slogan">Международный интегратор и&nbsp;digital-агентство</div>
                         </div>
 
-          
+
 
                         <div class="header-bottom-wrapper">
                             <div class="header-bottom-col-nav">
@@ -82,7 +114,7 @@
                                     <li class=""><a href="https://nota.media/contacts/">Контакты</a></li>
                                 </ul>
                             </div>
-                      
+
                             <div class="header-bottom-col-discuss">
                                 <div class="header-bottom__discuss">
                                     <a class="but but_green" href="https://nota.media/application/"
@@ -329,65 +361,69 @@
                     </div>
                 </div>
                 <div class="col-lg-6 cases-col">
-                    <form class="case-form js-validate js-case-form" onsubmit="ym(74820076,'reachGoal','form_main'); return true;"
-            id="case-form">
-            <input type="hidden" id="case-g-recaptcha-response" name="g-recaptcha-response" />
-            <input type="hidden" name="is_ajax" value="yes">
-            <input type="hidden" name="project_descr" value="Форма заявки из блока проектов">
-            <input type="hidden" name="section" value="main_ag">
-            <input type="hidden" id="visitor_uid2" name="visitor_uid" value="">
-            <div class="case-form__inner">
-                <div class="case-form__title">Обсудим ваш проект?</div>
-                <div class="case-form__form">
-                    <section class="case-form__input-section">
-                        <div>
-                            <div class="case-form__input-title">Как вас зовут? *</div>
-                            <input class="case-form__input js-onlyText" type="text" name="name"
-                                data-msg-required="Пожалуйста, добавьте имя, чтобы мы смогли правильно к вам обращаться"
-                                placeholder="Введите имя" required>
+                    <form class="case-form js-validate js-case-form"
+                        onsubmit="ym(74820076,'reachGoal','form_main'); return true;" id="case-form">
+                        <input type="hidden" id="case-g-recaptcha-response" name="g-recaptcha-response" />
+                        <input type="hidden" name="is_ajax" value="yes">
+                        <input type="hidden" name="project_descr" value="Форма заявки из блока проектов">
+                        <input type="hidden" name="section" value="main_ag">
+                        <input type="hidden" id="visitor_uid2" name="visitor_uid" value="">
+                        <div class="case-form__inner">
+                            <div class="case-form__title">Обсудим ваш проект?</div>
+                            <div class="case-form__form">
+                                <section class="case-form__input-section">
+                                    <div>
+                                        <div class="case-form__input-title">Как вас зовут? *</div>
+                                        <input class="case-form__input js-onlyText" type="text" name="name"
+                                            data-msg-required="Пожалуйста, добавьте имя, чтобы мы смогли правильно к вам обращаться"
+                                            placeholder="Введите имя" required>
+                                    </div>
+                                </section>
+                                <section class="case-form__input-section">
+                                    <div>
+                                        <div class="case-form__input-title">Телефон *</div>
+                                        <input class="case-form__input js-mask js-phone" type="text" name="phone"
+                                            data-msg-required="Пожалуйста, добавьте номер телефона, чтобы мы смогли с Вами связаться"
+                                            placeholder="+7 (___) ___-__-__" required>
+                                    </div>
+                                    <div>
+                                        <div class="case-form__input-title">E-mail *</div>
+                                        <input class="case-form__input js-email" type="text" name="email"
+                                            data-msg-required="Пожалуйста, добавьте e-mail, чтобы мы смогли с Вами связаться"
+                                            placeholder="Введите e-mail" required>
+                                    </div>
+                                </section>
+                                <section class="case-form__input-section">
+                                    <label class="case-form__input-checkbox">
+                                        <input type="checkbox" name="user" data-validation="required"
+                                            data-msg-required="Необходимо ознакомиться с политикой конфиденциальности"
+                                            required>
+                                        <div class="case-form__input-checkbox-decor"></div><span>Я даю согласие на
+                                            обработку
+                                            персональных данных и принимаю условия<a> Политики
+                                                конфиденциальности</a></span>
+                                    </label>
+                                </section>
+                                <button class="case-form__submit" type="submit">Отправить запрос</button>
+                            </div>
                         </div>
-                    </section>
-                    <section class="case-form__input-section">
-                        <div>
-                            <div class="case-form__input-title">Телефон *</div>
-                            <input class="case-form__input js-mask js-phone" type="text" name="phone"
-                                data-msg-required="Пожалуйста, добавьте номер телефона, чтобы мы смогли с Вами связаться"
-                                placeholder="+7 (___) ___-__-__" required>
+                        <div class="case-form__success">
+                            <div class="case-form__success-title">
+                                <div>Ваша заявка
+                                    <p>отправлена!</p>
+                                </div>
+                            </div>
+                            <div class="case-form__success-description">Наш менеджер свяжется <br>с вами в ближайшее
+                                время</div>
+                            <div class="case-form__success-close">
+                                <svg class="icon icon-close-2 ">
+                                    <use
+                                        xlink:href="https://nota.media/local/templates/.default/markup_notamedia/build/images/sprites.svg#close-2">
+                                    </use>
+                                </svg>
+                            </div>
                         </div>
-                        <div>
-                            <div class="case-form__input-title">E-mail *</div>
-                            <input class="case-form__input js-email" type="text" name="email"
-                                data-msg-required="Пожалуйста, добавьте e-mail, чтобы мы смогли с Вами связаться"
-                                placeholder="Введите e-mail" required>
-                        </div>
-                    </section>
-                    <section class="case-form__input-section">
-                        <label class="case-form__input-checkbox">
-                            <input type="checkbox" name="user" data-validation="required"
-                                data-msg-required="Необходимо ознакомиться с политикой конфиденциальности" required>
-                            <div class="case-form__input-checkbox-decor"></div><span>Я даю согласие на обработку
-                                персональных данных и принимаю условия<a> Политики конфиденциальности</a></span>
-                        </label>
-                    </section>
-                    <button class="case-form__submit" type="submit">Отправить запрос</button>
-                </div>
-            </div>
-            <div class="case-form__success">
-                <div class="case-form__success-title">
-                    <div>Ваша заявка
-                        <p>отправлена!</p>
-                    </div>
-                </div>
-                <div class="case-form__success-description">Наш менеджер свяжется <br>с вами в ближайшее время</div>
-                <div class="case-form__success-close">
-                    <svg class="icon icon-close-2 ">
-                        <use
-                            xlink:href="https://nota.media/local/templates/.default/markup_notamedia/build/images/sprites.svg#close-2">
-                        </use>
-                    </svg>
-                </div>
-            </div>
-        </form>
+                    </form>
                 </div>
 
 
@@ -1220,9 +1256,9 @@
                     </div>
                 </div>
             </div>
-          
+
         </div>
-       
+
     </footer>
 
 
