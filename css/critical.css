@@ -291,7 +291,7 @@ li {
         letter-spacing: 0px;
         height: 30px; } }
   .but_green span {
-    background: #38A14C; }
+    background: #B7171C; }
   @media screen and (min-width: 1025px) {
     .but_green:hover span {
       background: #1066A5; } }
@@ -331,8 +331,8 @@ li {
       background: transparent;
       color: #fff !important; } }
   .but_green_border span {
-    color: #38A14C;
-    border: 1px solid #38A14C; }
+    color: #B7171C;
+    border: 1px solid #B7171C; }
   .but.black_border span {
     color: #09101B;
     border: 1px solid #09101B; }
@@ -479,7 +479,7 @@ li {
       margin-bottom: 40px; } }
 
 .link {
-  color: #38A14C; }
+  color: #B7171C; }
   @media screen and (min-width: 1025px) {
     .link:hover {
       opacity: .8; } }
@@ -734,7 +734,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
     @media all and (-ms-high-contrast: none) {
       .header__slogan {
         background: none;
-        color: #38A14C; } }
+        color: #B7171C; } }
   .header__lang {
     font-size: 14px;
     text-transform: uppercase;
@@ -801,7 +801,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
           margin-right: 26px; } }
     .header-bottom__nav li.active a,
     .header-bottom__nav li.active_clickable a {
-      color: #38A14C; }
+      color: #B7171C; }
     .header-bottom__nav li.active a {
       pointer-events: none; }
     .header-bottom__nav a {
@@ -1035,7 +1035,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
     letter-spacing: .7px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #38A14C; }
+    color: #B7171C; }
   .header .container {
     padding: 0 40px; }
   .header.animated.is-shown {
@@ -1101,7 +1101,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
     letter-spacing: .7px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #38A14C; }
+    color: #B7171C; }
   .header .container {
     padding: 0 40px; }
   .header.animated.is-shown {
@@ -1169,7 +1169,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
     letter-spacing: .7px;
     text-transform: uppercase;
     font-weight: 500;
-    color: #38A14C; }
+    color: #B7171C; }
   .header-fixed:not(.menu-on) .header {
     border-bottom: #e9e9e9 1px solid; }
     .header-fixed:not(.menu-on) .header-top {
@@ -1389,7 +1389,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
       .agency-promo.items_show .agency-promo__link a.is_active {
         color: #09101B; }
         .agency-promo.items_show .agency-promo__link a.is_active span {
-          color: #38A14C; } }
+          color: #B7171C; } }
   @media screen and (min-width: 768px) {
     .agency-promo {
       display: -webkit-box;
@@ -1828,7 +1828,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
       .agency-promo.items_show .agency-promo__link a.is_active {
         color: #09101B; }
         .agency-promo.items_show .agency-promo__link a.is_active span {
-          color: #38A14C; } }
+          color: #B7171C; } }
   @media screen and (min-width: 768px) {
     .agency-promo {
       display: -webkit-box;
@@ -2581,7 +2581,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
   overflow: hidden;
   padding: 96px 0;
   color: #fff;
-  background: conic-gradient(from -35.9deg at 100% 100%, #38A14C -55.57deg, #0F65A4 70.76deg, #28A1CE 158.75deg, #019681 243.12deg, #38A14C 304.43deg, #0F65A4 430.76deg); }
+  background: conic-gradient(from -35.9deg at 100% 100%, #B7171C -55.57deg, #0F65A4 70.76deg, #28A1CE 158.75deg, #019681 243.12deg, #B7171C 304.43deg, #0F65A4 430.76deg); }
   .services-box .services-title {
     color: inherit; }
   .services-box .services-elem__content {
@@ -2828,7 +2828,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
       background: #F2F2F2;
       padding: 23px 32px; }
     .company-cards__title {
-      color: #38A14C;
+      color: #B7171C;
       font-size: 72px;
       line-height: 72px;
       font-weight: 500; }
@@ -3217,10 +3217,10 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
         width: 100%; } }
   .application-input.is-success input,
   .application-input.is-success textarea {
-    color: #38A14C; }
+    color: #B7171C; }
   .application-input.is-success input:-internal-autofill-selected {
     -webkit-box-shadow: inset 0 0 0 50px #fff;
-    -webkit-text-fill-color: #38A14C !important; }
+    -webkit-text-fill-color: #B7171C !important; }
   .application__textarea {
     border: none;
     height: 72px;
@@ -3325,7 +3325,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
     .application__agree span {
       color: #000; }
     .application__agree a {
-      color: #38A14C; }
+      color: #B7171C; }
       .application__agree a:hover {
         color: #019681; }
   .application-submit {
@@ -3385,7 +3385,7 @@ body.tilda-page .export-from-tildа-wrapper *, body.tilda-page .export-from-tild
         display: block;
         width: 130px;
         height: 6px;
-        background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #38A14C 84.56%); } }
+        background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #B7171C 84.56%); } }
   @media screen and (min-width: 1025px) and (max-width: 1500px) {
     .application-elem.has_line:before {
       right: calc(100% + 40px);
@@ -3540,7 +3540,7 @@ sup.required {
       display: block;
       width: 130px;
       height: 6px;
-      background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #38A14C 84.56%); } }
+      background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #B7171C 84.56%); } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .application {
@@ -4377,7 +4377,7 @@ sup.required {
 .promo-agency {
   position: relative;
   display: block;
-  background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #38A14C 84.56%);
+  background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #B7171C 84.56%);
   padding: 32px 128px 32px 40px; }
 
 .promo-integrator, .promo-agency {
@@ -4570,7 +4570,7 @@ sup.required {
   .promo-agency {
     position: relative;
     display: block;
-    background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #38A14C 84.56%);
+    background: radial-gradient(97.12% 256.02% at 100% 0%, #0F65A4 0%, #019681 41.68%, #B7171C 84.56%);
     padding: 32px 128px 100px 40px; }
   .promo-nav__menu li {
     font-size: 16px;
@@ -4946,7 +4946,7 @@ sup.required {
         display: none; } }
 
 .contact-mail {
-  color: #38A14C; }
+  color: #B7171C; }
   @media screen and (max-width: 1024px) {
     .contact-mail {
       color: #77829E; } }
